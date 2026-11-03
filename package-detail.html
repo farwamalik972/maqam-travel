@@ -1,0 +1,852 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Umrah Package Details | Maqam Travel & Tour</title>
+  <meta name="description" content="Explore Umrah package details, accommodation options and travel arrangements with Maqam Travel & Tour.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#70452F',
+            'brand-dark': '#4B2D20',
+            'brand-light': '#F0E3D5',
+            gold: '#D2AA63',
+            'gold-light': '#F6EBD5',
+            ivory: '#FAF5EE',
+            cream: '#FFF9F1',
+            ink: '#30231D',
+            muted: '#79685D',
+            line: '#E8DCCF',
+            camel: '#B9845A'
+          },
+          fontFamily: {
+            sans: ['DM Sans', 'sans-serif'],
+            display: ['Playfair Display', 'serif']
+          },
+          boxShadow: {
+            soft: '0 10px 35px rgba(75,45,32,0.07)',
+            card: '0 12px 35px rgba(75,45,32,0.10)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 30px; }
+    body { margin: 0; font-family: "DM Sans", sans-serif; }
+    button, input, textarea { font: inherit; }
+    .hero-bg {
+      background-position: center;
+      background-size: cover;
+    }
+    .form-control {
+      width: 100%;
+      border: 1px solid #E8DCCF;
+      background: #FFFCF8;
+      padding: 12px 14px;
+      color: #30231D;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .form-control:focus {
+      border-color: #70452F;
+      box-shadow: 0 0 0 3px rgba(112,69,47,.10);
+    }
+    .form-control::placeholder { color: #A3988E; }
+    .form-control:focus-visible {
+      outline: none;
+    }
+    .inquiry-card {
+      position: sticky;
+      top: 24px;
+    }
+    .detail-section { scroll-margin-top: 25px; }
+    @media (max-width: 767px) {
+      .inquiry-card { position: static; }
+    }
+  </style>
+</head>
+
+<body class="bg-ivory text-ink">
+
+  <!-- NAVBAR -->
+  <header class="relative z-20 border-b border-line bg-cream">
+    <nav class="mx-auto flex min-h-[78px] max-w-7xl items-center justify-between gap-4 px-5 py-3 sm:px-8">
+
+      <a href="https://maqamtravelandtour.co.uk/"
+         class="flex items-center gap-3 text-brand-dark">
+
+        <span class="grid h-11 w-11 place-items-center rounded-tr-2xl rounded-bl-2xl bg-brand text-lg text-white">
+          <i class="fa-solid fa-kaaba"></i>
+        </span>
+
+        <span>
+          <strong class="block font-display text-2xl leading-tight">Maqam</strong>
+          <small class="mt-1 block text-[9px] font-bold tracking-[2.5px] text-muted">
+            TRAVEL &amp; TOUR
+          </small>
+        </span>
+      </a>
+
+      <a href="https://maqamtravelandtour.co.uk/"
+         class="inline-flex items-center gap-2 text-xs font-bold text-brand-dark transition hover:text-camel sm:text-sm">
+        <i class="fa-solid fa-arrow-left text-gold"></i>
+        <span>Back to Main Website</span>
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="package-hero"
+      class="hero-bg relative isolate overflow-hidden bg-brand-dark">
+
+      <div class="absolute inset-0 -z-10 bg-gradient-to-r from-[#28170F]/95 via-brand-dark/80 to-[#28170F]/45"></div>
+
+      <div class="mx-auto flex min-h-[370px] max-w-7xl items-center px-5 py-16 sm:px-8 sm:py-20">
+
+        <div class="max-w-3xl">
+
+          <div class="mb-6 flex flex-wrap items-center gap-2 text-xs text-white/75">
+            <a href="https://maqamtravelandtour.co.uk/"
+               class="transition hover:text-gold">Home</a>
+            <i class="fa-solid fa-chevron-right text-[9px]"></i>
+            <a href="umrah-packages.html"
+               class="transition hover:text-gold">Umrah Packages</a>
+            <i class="fa-solid fa-chevron-right text-[9px]"></i>
+            <span id="breadcrumb-name" class="text-gold-light">Package Details</span>
+          </div>
+
+          <span id="hero-badge"
+            class="inline-flex items-center gap-2 border border-gold/50 bg-white/10 px-4 py-2 text-[10px] font-extrabold tracking-[2px] text-gold-light">
+            <i class="fa-solid fa-moon"></i>
+            YOUR JOURNEY OF FAITH
+          </span>
+
+          <h1 id="hero-title"
+            class="mt-6 font-display text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+            5-Star Umrah Package
+          </h1>
+
+          <p id="hero-description"
+            class="mt-5 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
+            Discover your Umrah travel options with accommodation choices and
+            travel assistance from Maqam Travel &amp; Tour.
+          </p>
+
+          <div class="mt-7 flex flex-wrap gap-3">
+            <a href="#package-overview"
+              class="inline-flex min-h-12 items-center justify-center gap-2 bg-gold px-5 py-3 text-xs font-extrabold text-brand-dark transition hover:bg-gold-light">
+              Explore Package
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+            <a href="#inquiry"
+              class="inline-flex min-h-12 items-center justify-center gap-2 border border-white/40 bg-white/10 px-5 py-3 text-xs font-extrabold text-white transition hover:bg-white/20">
+              <i class="fa-regular fa-paper-plane"></i>
+              Send an Inquiry
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK PACKAGE INFO -->
+    <section class="relative z-10 mx-auto -mt-6 max-w-7xl px-4 sm:px-8">
+      <div class="grid grid-cols-2 overflow-hidden border border-line bg-white shadow-soft md:grid-cols-4">
+
+        <div class="flex items-center gap-3 border-b border-r border-line p-4 sm:p-5 md:border-b-0">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-tr-xl rounded-bl-xl bg-brand-light text-brand">
+            <i class="fa-regular fa-clock"></i>
+          </span>
+          <div>
+            <p class="text-[10px] font-bold text-muted">DURATION</p>
+            <p id="quick-duration" class="mt-1 text-xs font-extrabold text-brand-dark sm:text-sm">14 Nights</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 border-b border-line p-4 sm:p-5 md:border-b-0 md:border-r">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-tr-xl rounded-bl-xl bg-brand-light text-brand">
+            <i class="fa-solid fa-star"></i>
+          </span>
+          <div>
+            <p class="text-[10px] font-bold text-muted">PACKAGE TYPE</p>
+            <p id="quick-category" class="mt-1 text-xs font-extrabold text-brand-dark sm:text-sm">5 Star</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 border-r border-line p-4 sm:p-5">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-tr-xl rounded-bl-xl bg-brand-light text-brand">
+            <i class="fa-solid fa-plane-departure"></i>
+          </span>
+          <div>
+            <p class="text-[10px] font-bold text-muted">DEPARTURE</p>
+            <p class="mt-1 text-xs font-extrabold text-brand-dark sm:text-sm">UK Airports</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 p-4 sm:p-5">
+          <span class="grid h-11 w-11 shrink-0 place-items-center rounded-tr-xl rounded-bl-xl bg-gold-light text-brand-dark">
+            <i class="fa-solid fa-tag"></i>
+          </span>
+          <div class="min-w-0">
+            <p class="text-[10px] font-bold text-muted">PRICE PER PERSON</p>
+            <p id="quick-price" class="mt-1 break-words text-sm font-extrabold text-brand-dark sm:text-lg">£995.00</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MAIN TWO-COLUMN LAYOUT -->
+    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-8 sm:py-16">
+
+      <div class="grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
+
+        <!-- LEFT: 8 COLUMNS -->
+        <div class="min-w-0 space-y-8 lg:col-span-8">
+
+          <!-- ABOUT PACKAGE -->
+          <section id="package-overview"
+            class="detail-section border border-line bg-white p-5 shadow-soft sm:p-8">
+
+            <span class="text-[10px] font-extrabold tracking-[2.5px] text-camel">
+              DISCOVER YOUR JOURNEY
+            </span>
+
+            <h2 class="mt-3 font-display text-3xl font-bold text-brand-dark sm:text-4xl">
+              About This Package
+            </h2>
+
+            <p id="about-intro" class="mt-5 text-sm leading-8 text-muted">
+              Explore an Umrah journey planned around your travel preferences,
+              accommodation requirements and preferred departure dates.
+              Our team can help you understand the available options before booking.
+            </p>
+
+            <p id="about-extra" class="mt-4 text-sm leading-8 text-muted">
+              Every traveller has different needs. Contact our team to discuss
+              the itinerary, hotel options, flights and other arrangements
+              relevant to your selected package.
+            </p>
+
+            <div class="mt-7 grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+              <div class="flex items-start gap-3 bg-ivory p-4">
+                <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-gold-light text-brand">
+                  <i class="fa-solid fa-route"></i>
+                </span>
+                <div>
+                  <h3 class="text-sm font-extrabold text-brand-dark">Travel Assistance</h3>
+                  <p class="mt-2 text-xs leading-6 text-muted">
+                    Discuss your departure airport, dates and travel preferences.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-ivory p-4">
+                <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-gold-light text-brand">
+                  <i class="fa-solid fa-hotel"></i>
+                </span>
+                <div>
+                  <h3 class="text-sm font-extrabold text-brand-dark">Accommodation Options</h3>
+                  <p class="mt-2 text-xs leading-6 text-muted">
+                    Ask about hotel locations, room arrangements and availability.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-ivory p-4">
+                <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-gold-light text-brand">
+                  <i class="fa-solid fa-calendar-check"></i>
+                </span>
+                <div>
+                  <h3 class="text-sm font-extrabold text-brand-dark">Flexible Planning</h3>
+                  <p class="mt-2 text-xs leading-6 text-muted">
+                    Share your preferred travel dates to explore suitable options.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3 bg-ivory p-4">
+                <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-gold-light text-brand">
+                  <i class="fa-solid fa-headset"></i>
+                </span>
+                <div>
+                  <h3 class="text-sm font-extrabold text-brand-dark">Enquiry Support</h3>
+                  <p class="mt-2 text-xs leading-6 text-muted">
+                    Get in touch to clarify package details before making a decision.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- PACKAGE DETAILS -->
+          <section class="detail-section border border-line bg-white p-5 shadow-soft sm:p-8">
+
+            <span class="text-[10px] font-extrabold tracking-[2.5px] text-camel">
+              PACKAGE INFORMATION
+            </span>
+
+            <h2 class="mt-3 font-display text-3xl font-bold text-brand-dark">
+              Package Details
+            </h2>
+
+            <p class="mt-3 text-sm leading-7 text-muted">
+              Review the main details below. Final arrangements depend on the
+              confirmed itinerary and availability.
+            </p>
+
+            <div class="mt-7 divide-y divide-line">
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-regular fa-clock w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Duration</span>
+                </div>
+                <p id="detail-duration" class="text-sm font-bold text-brand-dark sm:w-3/5">14 Nights</p>
+              </div>
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-regular fa-calendar w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Travel Period</span>
+                </div>
+                <p id="detail-period" class="text-sm font-bold text-brand-dark sm:w-3/5">December</p>
+              </div>
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-solid fa-plane-departure w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Departure</span>
+                </div>
+                <p id="detail-departure" class="text-sm font-bold text-brand-dark sm:w-3/5">Any UK Airport</p>
+              </div>
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-solid fa-kaaba w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Makkah Hotel</span>
+                </div>
+                <p id="detail-makkah" class="text-sm font-bold leading-6 text-brand-dark sm:w-3/5">
+                  Jabal Omar Makkah or Similar
+                </p>
+              </div>
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-solid fa-hotel w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Madinah Hotel</span>
+                </div>
+                <p id="detail-madinah" class="text-sm font-bold leading-6 text-brand-dark sm:w-3/5">
+                  Anwar Al Madinah Movenpick
+                </p>
+              </div>
+
+              <div class="flex flex-col gap-2 py-5 sm:flex-row sm:items-start">
+                <div class="flex items-center gap-3 sm:w-2/5">
+                  <i class="fa-solid fa-sterling-sign w-5 text-camel"></i>
+                  <span class="text-xs font-bold text-muted">Price Per Person</span>
+                </div>
+                <p id="detail-price" class="text-sm font-extrabold text-brand-dark sm:w-3/5">£995.00</p>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- INCLUSIONS -->
+          <section class="detail-section border border-line bg-white p-5 shadow-soft sm:p-8">
+
+            <span class="text-[10px] font-extrabold tracking-[2.5px] text-camel">
+              PLAN WITH CONFIDENCE
+            </span>
+
+            <h2 class="mt-3 font-display text-3xl font-bold text-brand-dark">
+              What to Ask About
+            </h2>
+
+            <p class="mt-3 text-sm leading-7 text-muted">
+              Before confirming your booking, ask our team to clarify which of
+              the following services are included in your selected package.
+            </p>
+
+            <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+              <div class="flex gap-3">
+                <i class="fa-solid fa-circle-check mt-1 text-camel"></i>
+                <div>
+                  <h3 class="text-sm font-bold text-brand-dark">Return Flights</h3>
+                  <p class="mt-1 text-xs leading-6 text-muted">Confirm airline, route, baggage and flight dates.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-3">
+                <i class="fa-solid fa-circle-check mt-1 text-camel"></i>
+                <div>
+                  <h3 class="text-sm font-bold text-brand-dark">Hotel Accommodation</h3>
+                  <p class="mt-1 text-xs leading-6 text-muted">Confirm hotels, room type and stay duration.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-3">
+                <i class="fa-solid fa-circle-check mt-1 text-camel"></i>
+                <div>
+                  <h3 class="text-sm font-bold text-brand-dark">Airport Transfers</h3>
+                  <p class="mt-1 text-xs leading-6 text-muted">Check whether airport and intercity transfers are included.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-3">
+                <i class="fa-solid fa-circle-check mt-1 text-camel"></i>
+                <div>
+                  <h3 class="text-sm font-bold text-brand-dark">Additional Services</h3>
+                  <p class="mt-1 text-xs leading-6 text-muted">Ask about visa assistance and any applicable extra charges.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-7 border-l-4 border-gold bg-gold-light/60 p-4">
+              <p class="text-xs leading-6 text-brand-dark">
+                <strong>Important:</strong> The services listed above are items
+                to confirm, not a guarantee that they are included. Request a
+                written itinerary and final quotation before booking.
+              </p>
+            </div>
+
+          </section>
+
+          <!-- FAQ -->
+          <section class="detail-section border border-line bg-white p-5 shadow-soft sm:p-8">
+
+            <span class="text-[10px] font-extrabold tracking-[2.5px] text-camel">
+              NEED TO KNOW
+            </span>
+
+            <h2 class="mt-3 font-display text-3xl font-bold text-brand-dark">
+              Frequently Asked Questions
+            </h2>
+
+            <div class="mt-6 divide-y divide-line">
+
+              <details class="group py-5" open>
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-brand-dark">
+                  How can I enquire about this package?
+                  <i class="fa-solid fa-plus text-xs text-camel transition group-open:rotate-45"></i>
+                </summary>
+                <p class="mt-3 text-xs leading-7 text-muted">
+                  Complete the inquiry form on this page with your contact
+                  details, preferred dates and travel requirements.
+                </p>
+              </details>
+
+              <details class="group py-5">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-brand-dark">
+                  Can I choose my departure airport?
+                  <i class="fa-solid fa-plus text-xs text-camel transition group-open:rotate-45"></i>
+                </summary>
+                <p class="mt-3 text-xs leading-7 text-muted">
+                  Share your preferred UK departure airport with the travel team.
+                  Available routes and prices must be confirmed.
+                </p>
+              </details>
+
+              <details class="group py-5">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-brand-dark">
+                  Are flights and hotels included in the price?
+                  <i class="fa-solid fa-plus text-xs text-camel transition group-open:rotate-45"></i>
+                </summary>
+                <p class="mt-3 text-xs leading-7 text-muted">
+                  Inclusions can vary by package. Ask for a written quotation
+                  detailing flights, hotels, transfers and other services.
+                </p>
+              </details>
+
+              <details class="group py-5">
+                <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-bold text-brand-dark">
+                  Is the package price guaranteed?
+                  <i class="fa-solid fa-plus text-xs text-camel transition group-open:rotate-45"></i>
+                </summary>
+                <p class="mt-3 text-xs leading-7 text-muted">
+                  Prices and availability must be reconfirmed before booking.
+                  The final quotation should specify the applicable terms.
+                </p>
+              </details>
+
+            </div>
+          </section>
+
+        </div>
+
+        <!-- RIGHT: 4 COLUMNS / INQUIRY -->
+        <aside id="inquiry" class="min-w-0 lg:col-span-4">
+
+          <div class="inquiry-card overflow-hidden border border-line bg-white shadow-card">
+
+            <!-- Form heading -->
+            <div class="relative overflow-hidden bg-brand-dark px-5 py-6 sm:px-6">
+              <div class="absolute -right-8 -top-8 h-32 w-32 rounded-full border border-gold/20"></div>
+              <div class="absolute -right-2 -top-2 h-20 w-20 rounded-full border border-gold/20"></div>
+
+              <div class="relative">
+                <span class="inline-flex items-center gap-2 text-[10px] font-extrabold tracking-[2px] text-gold">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  START YOUR JOURNEY
+                </span>
+
+                <h2 class="mt-3 font-display text-3xl font-bold text-white">
+                  Make an Inquiry
+                </h2>
+
+                <p class="mt-3 text-xs leading-6 text-white/70">
+                  Tell us what you need and enquire about your preferred Umrah package.
+                </p>
+
+                <div class="mt-5 flex items-center gap-3 border-t border-white/15 pt-4">
+                  <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-gold text-brand-dark">
+                    <i class="fa-solid fa-kaaba"></i>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-[10px] font-bold text-white/60">YOUR SELECTED PACKAGE</p>
+                    <p id="form-package-name" class="mt-1 text-sm font-bold text-gold-light">
+                      5-Star Umrah Package
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inquiry form -->
+            <form id="inquiry-form" class="space-y-4 p-5 sm:p-6">
+
+              <input type="hidden" id="package-field" name="package">
+
+              <div>
+                <label for="full-name" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Full Name <span class="text-camel">*</span>
+                </label>
+                <input id="full-name" name="name" type="text"
+                  autocomplete="name" required maxlength="100"
+                  placeholder="Enter your full name"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="email" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Email Address <span class="text-camel">*</span>
+                </label>
+                <input id="email" name="email" type="email"
+                  autocomplete="email" required maxlength="254"
+                  placeholder="you@example.com"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="phone" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Phone Number <span class="text-camel">*</span>
+                </label>
+                <input id="phone" name="phone" type="tel"
+                  autocomplete="tel" required maxlength="30"
+                  placeholder="+44 7XXX XXXXXX"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="address" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Address
+                </label>
+                <input id="address" name="address" type="text"
+                  autocomplete="street-address" maxlength="200"
+                  placeholder="Your address (optional)"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="departure" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Preferred Departure Airport
+                </label>
+                <input id="departure" name="departure" type="text"
+                  maxlength="100" placeholder="e.g. London Heathrow"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="travel-date" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Preferred Travel Date
+                </label>
+                <input id="travel-date" name="travel_date" type="date"
+                  class="form-control text-sm">
+              </div>
+
+              <div>
+                <label for="travellers" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Number of Travellers
+                </label>
+                <select id="travellers" name="travellers" class="form-control text-sm">
+                  <option value="1">1 Traveller</option>
+                  <option value="2" selected>2 Travellers</option>
+                  <option value="3">3 Travellers</option>
+                  <option value="4">4 Travellers</option>
+                  <option value="5">5 Travellers</option>
+                  <option value="6+">6+ Travellers</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" class="mb-2 block text-xs font-bold text-brand-dark">
+                  Your Message <span class="text-camel">*</span>
+                </label>
+                <textarea id="message" name="message" rows="4"
+                  required maxlength="2000"
+                  placeholder="Tell us your requirements, preferred hotels or any questions..."
+                  class="form-control resize-y text-sm"></textarea>
+              </div>
+
+              <label class="flex cursor-pointer items-start gap-3 text-xs leading-5 text-muted">
+                <input type="checkbox" id="consent" required
+                  class="mt-1 accent-brand">
+                <span>
+                  I agree to be contacted about my inquiry and understand that
+                  my details will be handled according to the applicable
+                  privacy policy.
+                </span>
+              </label>
+
+              <button type="submit"
+                class="flex min-h-12 w-full items-center justify-center gap-3 bg-brand px-5 py-3 text-sm font-extrabold text-white transition hover:bg-brand-dark focus:outline-none focus:ring-4 focus:ring-gold/40">
+                Send Inquiry
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+              <p class="text-center text-[10px] leading-5 text-muted">
+                Submitting an inquiry does not confirm a booking.
+              </p>
+
+              <div id="form-status" role="status" aria-live="polite"
+                class="hidden border border-line bg-ivory p-4 text-xs leading-6 text-brand-dark"></div>
+
+            </form>
+          </div>
+
+          <!-- SUPPORT BOX -->
+          <div class="mt-5 border border-line bg-gold-light/60 p-5">
+            <div class="flex items-start gap-3">
+              <span class="grid h-10 w-10 shrink-0 place-items-center rounded-tr-lg rounded-bl-lg bg-white text-brand">
+                <i class="fa-regular fa-comments"></i>
+              </span>
+              <div>
+                <h3 class="font-display text-lg font-bold text-brand-dark">
+                  Need More Information?
+                </h3>
+                <p class="mt-2 text-xs leading-6 text-muted">
+                  Visit our main website to find more information about our travel services.
+                </p>
+                <a href="https://maqamtravelandtour.co.uk/"
+                  class="mt-3 inline-flex items-center gap-2 text-xs font-extrabold text-brand-dark hover:text-camel">
+                  Visit Maqam Website
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- BOTTOM CTA -->
+    <section class="px-4 pb-16 sm:px-8 sm:pb-20">
+      <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-6 bg-brand-dark p-6 sm:p-9 md:flex-row md:items-center">
+        <div>
+          <span class="text-[10px] font-extrabold tracking-[2px] text-gold">
+            YOUR JOURNEY STARTS HERE
+          </span>
+          <h2 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+            Ready to Plan Your Umrah?
+          </h2>
+          <p class="mt-3 max-w-xl text-sm leading-7 text-white/70">
+            Share your requirements and ask about available travel arrangements.
+          </p>
+        </div>
+
+        <a href="#inquiry"
+          class="inline-flex min-h-12 shrink-0 items-center justify-center gap-3 bg-gold px-6 py-3 text-sm font-extrabold text-brand-dark transition hover:bg-gold-light">
+          Enquire Now
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-line bg-cream px-5 py-6 sm:px-8">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 sm:flex-row">
+      <a href="https://maqamtravelandtour.co.uk/"
+        class="font-display font-bold text-brand-dark">
+        Maqam Travel &amp; Tour
+      </a>
+      <p class="text-center text-[11px] text-muted">
+        © <span id="current-year"></span> All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- PACKAGE DATA + PAGE BEHAVIOUR -->
+  <script>
+    const packages = {
+      '5-star': {
+        title: '5-Star 14 Nights December Umrah Package',
+        category: '5 Star',
+        badge: 'VIP UMRAH PACKAGE',
+        icon: 'fa-crown',
+        duration: '14 Nights',
+        period: 'December',
+        departure: 'Any UK Airport',
+        makkah: 'Jabal Omar Makkah or Similar',
+        madinah: 'Anwar Al Madinah Movenpick',
+        price: '£995.00',
+        image: 'https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1800&q=85',
+        intro: 'Enjoy a premium Umrah journey with hotel options in Makkah and Madinah. This package is designed for travellers seeking a comfortable stay and assistance with their travel arrangements.',
+        extra: 'Explore your preferred December travel dates, hotel requirements and flight arrangements with our team. Final hotels, services, prices and availability must be confirmed before booking.',
+        description: 'Explore a premium Umrah travel option with accommodation choices and travel assistance from Maqam Travel & Tour.'
+      },
+
+      'ramadan': {
+        title: 'Ramadan Umrah Travel Package',
+        category: 'Ramadan',
+        badge: 'SPECIAL SEASON',
+        icon: 'fa-moon',
+        duration: 'Dates to Confirm',
+        period: 'Ramadan',
+        departure: 'UK Airport Options',
+        makkah: 'Confirm on Enquiry',
+        madinah: 'Confirm on Enquiry',
+        price: 'On Enquiry',
+        image: 'https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=1800&q=85',
+        intro: 'Plan your spiritual journey during Ramadan. Explore possible travel dates, accommodation options and arrangements for visiting the Holy Cities.',
+        extra: 'Ramadan travel availability and rates can vary by date and demand. Contact the team to discuss your requirements and request a confirmed itinerary and quotation.',
+        description: 'Explore Ramadan Umrah travel options, preferred dates and accommodation arrangements with our team.'
+      },
+
+      '3-star': {
+        title: '3-Star Umrah Package',
+        category: '3 Star',
+        badge: 'VALUE OPTION',
+        icon: 'fa-tag',
+        duration: 'Duration to Confirm',
+        period: 'Dates to Confirm',
+        departure: 'UK Airport Options',
+        makkah: 'Confirm on Enquiry',
+        madinah: 'Confirm on Enquiry',
+        price: 'On Enquiry',
+        image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=85',
+        intro: 'Explore an Umrah travel option with accommodation and travel arrangements based on your requirements. Ask about dates, hotel locations and inclusions before making your decision.',
+        extra: 'Discuss your preferred dates, budget, departure airport and accommodation needs with the team to explore suitable options. All package inclusions and prices must be confirmed.',
+        description: 'Explore a 3-star Umrah package option and discuss accommodation and travel arrangements.'
+      },
+
+      '4-star': {
+        title: '4-Star Comfort Umrah Package',
+        category: '4 Star',
+        badge: 'COMFORT OPTION',
+        icon: 'fa-gem',
+        duration: 'Duration to Confirm',
+        period: 'Dates to Confirm',
+        departure: 'UK Airport Options',
+        makkah: 'Confirm on Enquiry',
+        madinah: 'Confirm on Enquiry',
+        price: 'On Enquiry',
+        image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1800&q=85',
+        intro: 'Consider a comfortable Umrah trip with accommodation choices suited to your travel plans. Discuss preferred dates, departure airports and hotel requirements with the travel team.',
+        extra: 'Tell us what matters most for your journey, including hotel preferences and travel dates. Our team can help you clarify the available arrangements and request a quotation.',
+        description: 'Explore a 4-star comfort Umrah travel option with accommodation choices and travel assistance.'
+      }
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const requestedPackage = params.get('package') || '5-star';
+    const selected = packages[requestedPackage] || packages['5-star'];
+
+    function setText(id, value) {
+      const element = document.getElementById(id);
+      if (element) element.textContent = value;
+    }
+
+    // Update package details from the URL.
+    setText('hero-title', selected.title);
+    setText('breadcrumb-name', selected.title);
+    setText('hero-description', selected.description);
+    setText('hero-badge', selected.badge);
+    setText('quick-duration', selected.duration);
+    setText('quick-category', selected.category);
+    setText('quick-price', selected.price);
+    setText('about-intro', selected.intro);
+    setText('about-extra', selected.extra);
+    setText('detail-duration', selected.duration);
+    setText('detail-period', selected.period);
+    setText('detail-departure', selected.departure);
+    setText('detail-makkah', selected.makkah);
+    setText('detail-madinah', selected.madinah);
+    setText('detail-price', selected.price);
+    setText('form-package-name', selected.title);
+    setText('current-year', new Date().getFullYear());
+
+    document.getElementById('package-hero').style.backgroundImage =
+      'url("' + selected.image + '")';
+
+    document.getElementById('package-field').value = selected.title;
+
+    document.title = selected.title + ' | Maqam Travel & Tour';
+
+    // Prevent choosing a date in the past.
+    const dateInput = document.getElementById('travel-date');
+    const now = new Date();
+    const localToday = [
+      now.getFullYear(),
+      String(now.getMonth() + 1).padStart(2, '0'),
+      String(now.getDate()).padStart(2, '0')
+    ].join('-');
+
+    dateInput.min = localToday;
+
+    // Inquiry form validation and feedback.
+    // Connect this form to your backend or form service to deliver submissions.
+    const form = document.getElementById('inquiry-form');
+    const status = document.getElementById('form-status');
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      if (!form.reportValidity()) return;
+
+      status.classList.remove('hidden');
+      status.textContent =
+        'Your details are valid, but this form is not connected to a submission service yet. Please connect a backend or form endpoint before publishing so your inquiry can be delivered to the travel team.';
+      status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  </script>
+
+</body>
+</html>
